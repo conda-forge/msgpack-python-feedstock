@@ -1,8 +1,8 @@
 {%set name = "msgpack-python" %}
-{%set version = "0.4.8" %}
+{%set version = "0.5.1" %}
 {%set compress_type = "tar.gz" %}
 {%set hash_type = "sha256" %}
-{%set hash_val = "1a2b19df0f03519ec7f19f826afb935b202d8979b0856c6fb3dc28955799f886" %}
+{%set hash_val = "69aa1eb0e13be1d3bd495ca937eae66df4431126f5cfd5491dc40370e5644853" %}
 {%set build_num = "0" %}
 
 package:
