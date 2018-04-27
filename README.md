@@ -14,14 +14,16 @@ Summary: MessagePack (de)serializer.
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/msgpack-python-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/msgpack-python-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/msgpack-python-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/msgpack-python-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/msgpack-python-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/msgpack-python-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/msgpack-python-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/msgpack-python-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/msgpack-python-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/msgpack-python-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/msgpack-python-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/msgpack-python-feedstock/branch/master)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/msgpack-python/badges/version.svg)](https://anaconda.org/conda-forge/msgpack-python)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/msgpack-python/badges/downloads.svg)](https://anaconda.org/conda-forge/msgpack-python)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-msgpack--python-green.svg)](https://anaconda.org/conda-forge/msgpack-python) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/msgpack-python.svg)](https://anaconda.org/conda-forge/msgpack-python) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/msgpack-python.svg)](https://anaconda.org/conda-forge/msgpack-python) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/msgpack-python.svg)](https://anaconda.org/conda-forge/msgpack-python) |
 
 Installing msgpack-python
 =========================
