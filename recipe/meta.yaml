@@ -21,6 +21,8 @@ build:
 requirements:
   build:
     - {{ compiler("cxx") }}
+
+  host:
     - python
     - pip
     - cython >=0.16
