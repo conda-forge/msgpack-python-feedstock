@@ -20,10 +20,10 @@ build:
 
 requirements:
   build:
+    - {{ compiler("cxx") }}
     - python
     - pip
     - cython >=0.16
-    - toolchain
 
   run:
     - python
