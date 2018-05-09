@@ -15,15 +15,17 @@ source:
   {{ hash_type }}: {{ hash }}
 
 build:
-  number: 1
-  script: python setup.py install --single-version-externally-managed --record=record.txt
+  number: 2
+  script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
   build:
+    - {{ compiler("cxx") }}
+
+  host:
     - python
-    - setuptools
+    - pip
     - cython >=0.16
-    - toolchain
 
   run:
     - python
