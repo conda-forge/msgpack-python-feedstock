@@ -1,4 +1,4 @@
-{% set version = "0.6.0" %}
+{% set version = "0.6.1" %}
 
 package:
   name: msgpack-python
@@ -6,10 +6,10 @@ package:
 
 source:
   url: https://pypi.io/packages/source/m/msgpack/msgpack-{{ version }}.tar.gz
-  sha256: 64abc6bf3a2ac301702f5760f4e6e227d0fd4d84d9014ef9a40faa9d43365259
+  sha256: 4008c72f5ef2b7936447dcb83db41d97e9791c83221be13d5e19db0796df1972
 
 build:
-  number: 1000
+  number: 0
   script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
 
 requirements:
