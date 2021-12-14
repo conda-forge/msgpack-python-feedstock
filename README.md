@@ -329,5 +329,4 @@ Feedstock Maintainers
 * [@carlodri](https://github.com/carlodri/)
 * [@jakirkham](https://github.com/jakirkham/)
 * [@ocefpaf](https://github.com/ocefpaf/)
-* [@pmlandwehr](https://github.com/pmlandwehr/)
 
