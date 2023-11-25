@@ -11,3 +11,4 @@ provider:
   linux_ppc64le: azure
   win: azure
 test_on_native_only: true
+conda_build_tool: mambabuild
