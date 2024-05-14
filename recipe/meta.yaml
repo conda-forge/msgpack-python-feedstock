@@ -1,4 +1,4 @@
-{% set version = "1.0.7" %}
+{% set version = "1.0.8" %}
 
 package:
   name: msgpack-python
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/m/msgpack/msgpack-{{ version }}.tar.gz
-  sha256: 572efc93db7a4d27e404501975ca6d2d9775705c2d922390d878fcf768d92c87
+  sha256: 95c02b0e27e706e48d0e5426d1710ca78e0f0628d6e89d5b5a5b91a5f12274f3
 
 build:
   number: 0
@@ -16,12 +16,13 @@ requirements:
   build:
     - python                                 # [build_platform != target_platform]
     - cross-python_{{ target_platform }}     # [build_platform != target_platform]
-    - cython                                 # [build_platform != target_platform]
+    - cython ~=3.0.8                         # [build_platform != target_platform]
+    - {{ stdlib("c") }}
     - {{ compiler("cxx") }}
   host:
     - python
     - pip
-    - cython >=0.16
+    - cython ~=3.0.8
   run:
     - python
 
