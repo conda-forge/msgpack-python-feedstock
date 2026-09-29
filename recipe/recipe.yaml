@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "1.2.2"
+  version: "1.2.3"
 
 package:
   name: msgpack-python
@@ -9,10 +9,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/m/msgpack/msgpack-${{ version }}.tar.gz
-  sha256: 9eb0b0e602064527a045ea28c4f174ed69383587e29cebe28947e3b84106eb2a
+  sha256: 32edb81a2b5eb7cd7c9d941b2bfbbb082fd2cd09e0e725930316af6b708db186
 
 build:
-  number: 2
+  number: 0
   script: ${{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
 
 requirements:
